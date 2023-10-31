@@ -1,0 +1,111 @@
+body{
+
+	background: linear-gradient(#5e19ff, #ff685a);
+	background-size: 2000% 2000% ;
+}
+.fondo{
+	display: flex;
+	position: absolute;
+	padding: 200px;
+	margin-left: 300px;
+	filter: blur(4px);
+}
+
+.rectangle-4 {
+	width: 1900px;
+	height: 60px;
+	margin-top: -10px;
+	box-shadow: 0px 5px 21px rgba(0, 0, 0, 0.49);
+	background: linear-gradient(90deg, rgb(118, 5, 247) 0%, rgb(250, 72, 59) 100%);
+	border-color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+}
+.rectangle-5 {
+	display: flex;
+	margin-left: 400px;
+	margin-top: 6px;
+	width: 894px;
+	height: 25px;
+	padding: 8px 8px 8px 8px;
+	background: #FFFFFF;
+	color: #00000070;
+	border-color: #00000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.3;
+	text-align: left;
+}
+.account-circle-icon-1 {
+	width: 43px;
+	height: 43px;
+	background: #ffffff5e;
+	border-radius: 70%;
+	display: flex;
+	margin-top: -44px;
+	float: right;
+	margin-right: 50px;
+	border: solid 1px white;
+}
+.material-symbols-outlined{
+	display: flex;
+	padding: 10px;
+	
+}
+
+.usuario {
+	display: flex;
+	float:right ;
+	margin-right: 60px;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 17px;
+	margin-top: -30px;
+	line-height: 1.3;
+	text-align: center;
+}
+.more-vert-icon-1 {
+	width: 48px;
+	height: 48px;
+	background: #FFFFFF;
+}
+.rectangle-6 {
+	display: flex;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 20px;
+	background: linear-gradient(180deg, rgba(255, 216, 193, 0.68) 0%, rgba(51, 51, 51, 0) 100%);
+	border-color: #FFFFFF;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+}
+
+
+.rectangle-7 {
+	color:rgb(255, 255, 255)e;
+	transform: translateX(-300px);
+	margin-left: -10px;
+	position:absolute;
+	width: 253px;
+	height: 930px;
+	box-shadow: 5px 1px 15px rgba(0, 0, 0, 0.59);
+	background: linear-gradient(180deg, rgb(96, 40, 186) 0%, rgb(255, 22, 150) 99%);
+	animation-fill-mode: both,forwards, none;;
+}
+
+@keyframes movesin{
+
+0%{transform:translateX(-300px);}
+100%{transform: translateX(0px);}
+}
+
+.material-symbols-outlined{
+
+color: azure;
+}

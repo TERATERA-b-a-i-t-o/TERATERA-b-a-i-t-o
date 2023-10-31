@@ -16,19 +16,31 @@
             <img src="images/mario.gif" alt="" width="900">
         </div>
         <div class="rectangle-4">
-            <button class="rectangle-6" onclick="press()"></button>
+            <button class="rectangle-6" onclick="press()"><span id="dot" class="material-symbols-outlined">
+                    more_vert
+                </span></button>
 
-            <div class="rectangle-7" " id="barra"><span class="material-symbols-outlined">
+            <div class="rectangle-7" id="barra">
+                <button class="bb" onclick="getback()"></button>
+                <span class="material-symbols-outlined" id="baku">
                     reply
                 </span>
+
             </div>
 
-            <input class="rectangle-5" type="text" value="" placeholder="Buscar">
+            <input class="rectangle-5" type="text" name="buscador" placeholder="Buscar">
+
             <h5 class="usuario">usuario de ejemplo</h5>
-            <div class="account-circle-icon-1"><span id="baku" class="material-symbols-outlined">
+            <div class="account-circle-icon-1"><span " class=" material-symbols-outlined">
                     account_circle
                 </span></div>
         </div>
+        
+        <div class="titulo">
+            <h3>SCRIMER</h3>
+        </div>
+
+
     </div>
 </body>
 <script>
@@ -36,13 +48,17 @@
 
     function press() {
 
-        a++
-        console.log(a)
+        a++;
+        console.log(a);
         document.querySelector("#barra").style.animation = "movesin 0.8s";
         document.querySelector("#barra").style.transform = "translateX(0px)"
     }
 
-    function bar() {
+    function getback() {
+        a++;
+        console.log(a);
+        document.querySelector("#barra").style.animation = "movesout 0.8s";
+        document.querySelector("#barra").style.transform = "translateX(-300px)";
 
     }
 </script>

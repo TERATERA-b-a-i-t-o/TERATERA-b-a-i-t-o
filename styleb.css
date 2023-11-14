@@ -1,0 +1,390 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+  @import url('https://fonts.cdnfonts.com/css/wonder-boy-in-monster-world');
+
+body{
+	transition: all .3s;
+}
+
+body{
+
+	background: linear-gradient(#5e19ff, rgb(255, 90, 90));
+	background-size: 2000% 2000% ;
+}
+.fondo{
+	
+	display: flex;
+	position: absolute;
+	padding: 200px;
+	margin-left: 300px;
+	filter: blur(4px);
+}
+.titulo h3{
+	font-family: 'Inter', sans-serif;
+	color: rgb(255, 255, 255);
+	text-shadow:8px -8px   rgb(248, 210, 58),8px -10px   rgb(248, 93, 58) ;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 15%;
+	transition: 1s;
+	font-size: 100px;
+	animation: md 2s;
+	animation-fill-mode: forwards;
+}
+
+
+.selector{
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	margin-left: 20px;
+	transition:0.5s;
+}
+.selector h5{
+transition: 0.5s;
+line-height: 50px;
+}
+
+.opciones{
+border-top:solid 1px #FFFFFF;
+
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	transition:0.5s;
+}
+.opciones h5{
+transition: 0.5s;
+line-height: 50px;
+}
+.opciones h5:hover:nth-child(1){
+	
+	margin-left: 10px;
+	transition:0.5s;
+}
+.opciones h5:hover:nth-child(2){
+	
+	margin-left: 10px;
+	transition:0.5s;
+}
+
+.selector h5:hover:nth-child(1){
+	
+	margin-left: 10px;
+	transition:0.5s;
+}
+.selector h5:hover:nth-child(2){
+	
+	margin-left: 10px;
+	transition:0.5s;
+}
+.selector h5:hover:nth-child(3){
+	
+	margin-left: 10px;
+	transition:0.5s;
+}
+.selector h5:hover:nth-child(4){
+	
+	margin-left: 10px;
+	transition:0.5s;
+}
+.selector h5:hover:nth-child(5){
+	
+	margin-left: 10px;
+	transition:0.5s;
+}
+
+@keyframes st{
+	0%{transform: translateX(0);}
+	100%{transform: translateX(10px);}
+}
+
+
+
+.titulo{
+	animation: fadein 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes md{
+
+0%{transform: translateY(-90px);}
+100%{transform: translateY(50px)rotate(5deg);}
+}
+
+@keyframes fadein{
+
+	0%{opacity:0;}
+	100%{opacity:1;}
+	}
+
+.rectangle-4 {
+	width: 1900px;
+	height: 60px;
+	margin-top: -10px;
+	box-shadow: 0px 5px 21px rgba(0, 0, 0, 0.49);
+	background: linear-gradient(90deg, rgb(118, 5, 247) 0%, rgb(250, 72, 59) 100%);
+	border-color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#obj{
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 55px;
+	
+}
+#obj1{
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 100px;
+	
+}
+#obj2{
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 70px;
+	
+}
+#obj3{
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 90px;
+	
+}
+#obj4{
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 110px;
+	
+}
+#obj5{
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 120px;
+	
+}
+
+h5:hover #obj{
+	animation: scalein 0.8s;
+	animation-fill-mode: forwards;
+}
+h5:hover #obj1{
+	animation: scalein 0.8s;
+	animation-fill-mode: forwards;
+}
+h5:hover #obj2{
+	animation: scalein 0.8s;
+	animation-fill-mode: forwards;
+}
+h5:hover #obj3{
+	animation: scalein 0.8s;
+	animation-fill-mode: forwards;
+}
+h5:hover #obj4{
+	animation: scalein 0.8s;
+	animation-fill-mode: forwards;
+}
+h5:hover #obj5{
+	animation: scalein 0.8s;
+	animation-fill-mode: forwards;
+}
+
+.next{
+	
+	display: flex;
+	position: absolute;
+	margin-left: 70%;
+	margin-top: 400px;
+	z-index: 2;
+}
+
+.next span{
+
+	scale: 1;
+}
+
+@keyframes scalein{
+
+0%{transform: scale(1);}
+100%{transform: scale(1.2);}
+
+}
+
+.rectangle-5 {
+	display: flex;
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 6px;
+	width: 894px;
+	height: 25px;
+	padding: 8px 8px 8px 8px;
+	background: #FFFFFF;
+	color: #00000070;
+	border-color: #00000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.3;
+	text-align: left;
+}
+.account-circle-icon-1 {
+	position:absolute;
+	width: 43px;
+	height: 43px;
+	background: #ffffff5e;
+	border-radius: 70%;
+	display: flex;
+	margin-top: -44px;
+	float: right;
+	margin-right: 50px;
+	border: solid 1px white;
+}
+.material-symbols-outlined{
+	display: flex;
+	padding: 10px;
+	
+}
+
+.usuario {
+	display: flex;
+	float:right ;
+	margin-right: 60px;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 17px;
+	margin-top: -30px;
+	line-height: 1.3;
+	text-align: center;
+}
+.more-vert-icon-1 {
+	width: 48px;
+	height: 48px;
+	background: #FFFFFF;
+}
+.rectangle-6 {
+	display: flex;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 20px;
+	background: linear-gradient(180deg, rgba(255, 216, 193, 0.68) 0%, rgba(51, 51, 51, 0) 100%);
+	border-color: #FFFFFF;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+}
+
+
+.rectangle-7 {
+	color:rgb(255, 255, 255);
+	transform: translateX(-300px);
+	margin-left: -10px;
+	position:absolute;
+	width: 253px;
+	height: 930px;
+	box-shadow: 5px 1px 15px rgba(0, 0, 0, 0.59);
+	background: linear-gradient(180deg, rgb(96, 40, 186) 0%, rgb(255, 22, 150) 99%);
+	animation-fill-mode: both,forwards, none;;
+}
+
+@keyframes movesin{
+
+0%{transform:translateX(-300px);}
+100%{transform: translateX(0px);}
+}
+@keyframes movesout{
+
+	0%{transform:translateX(0px);}
+	100%{transform: translateX(-300px);}
+	}
+
+.material-symbols-outlined{
+display: flex;
+color: azure;
+cursor: pointer;
+}
+
+.bb{
+	opacity: 0%;
+	display: flex;
+	position: absolute;
+	z-index: 2px;
+	width: 30px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 8px;
+}
+
+#dot{
+display: flex;
+position: absolute;
+margin-top: -10px;
+margin-left: -15px;
+
+}
+
+.linku {
+	
+	display: flex;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 80%;
+	justify-items: center;
+	
+}
+
+
+.det{
+	display: flex;
+	position: absolute;
+	width: 350px;
+}
+
+.det:nth-child(1){
+z-index: 2;
+margin-top: 20px;
+margin-left: 300px;
+animation: ocilate 4s infinite;
+animation-fill-mode: forwards;
+rotate: -5deg;
+}
+.det:nth-child(2){
+	z-index: 2;
+	margin-top: 600px;
+	margin-left: 62%;
+	animation: ocilate 4s infinite;
+	animation-fill-mode: forwards;
+	rotate: 5deg;
+	}
+
+@keyframes ocilate{
+
+0%{transform: translateY(-8px);}
+50%{transform: translateY(8px);}
+100%{transform: translateY(-8px);}
+
+}
+
+#bgo{
+	display: flex;
+	position: absolute;
+	color: #1e1d21;
+	filter: opacity(70%);
+	background-repeat:repeat-x;
+}
+
+.loading{
+	opacity: 0;
+}
+
+
+
